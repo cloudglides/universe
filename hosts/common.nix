@@ -67,7 +67,7 @@ in {
       home.packages = with pkgs; [
         # Applications
         #kate
-
+        fish
         # Terminal
         fzf
         fd
@@ -221,8 +221,8 @@ in {
   services.libinput.enable = true;
 
   # Default shell
-  programs.zsh.enable = true;
-  users.defaultUserShell = pkgs.zsh;
+  programs.fish.enable = true;
+  users.defaultUserShell = pkgs.fish;
 
   fonts.packages = with pkgs.nerd-fonts; [
     jetbrains-mono
