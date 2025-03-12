@@ -46,7 +46,7 @@
   } @ inputs: let
     settings = {
       # User configuration
-      username = "error"; # no need to touch this since install.sh uses sed to replace this
+      username = "cloudglides"; # no need to touch this since install.sh uses sed to replace this
       editor = "nixvim"; # nixvim, vscode, nvchad, neovim, emacs (WIP)
       browser = "floorp"; # firefox, floorp, zen
       terminal = "kitty"; # kitty, alacritty, wezterm

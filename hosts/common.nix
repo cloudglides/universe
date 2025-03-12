@@ -68,6 +68,8 @@ in {
         # Applications
         #kate
         fish
+        ghostty
+        code-cursor
         # Terminal
         fzf
         fd
